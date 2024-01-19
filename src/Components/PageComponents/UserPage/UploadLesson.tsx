@@ -2,7 +2,7 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 import { generateClient } from 'aws-amplify/api';
 import { useAuthenticator } from '@aws-amplify/ui-react';
-import * as mutation from '../../../../../amplify/src/graphql/mutations'
+import * as mutation from '../../../graphql/mutations'
 import { MouseEvent } from 'react';
 
 
