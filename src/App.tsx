@@ -4,7 +4,7 @@ import { BrowserRouter as Router , Route, Routes, Navigate } from "react-router-
 import { Amplify } from 'aws-amplify';
 
 import '@aws-amplify/ui-react/styles.css';
-import config from '../../amplify/src/amplifyconfiguration.json';
+import config from './amplifyconfiguration.json';
 
 import NavbarComponent from './Components/NavbarComponent';
 import PrivateRouteComponent from './Components/PrivateRouteComponent';
